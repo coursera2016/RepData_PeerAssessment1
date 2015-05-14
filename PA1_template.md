@@ -133,3 +133,8 @@ xyplot(steps ~ interval|weekday, data=avg.steps.int2, type="l", layout=c(1,2),
 ```
 
 ![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png) 
+
+Observations:
+- The average number of steps peaks around 8am during both weekdays and weekends. 
+- The peak number of steps is higher during weekdays than it during weekends.
+- During rest of the day, the number of steps is lowser during weekdays than it during weekends.
